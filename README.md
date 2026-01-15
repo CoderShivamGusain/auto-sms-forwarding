@@ -1,15 +1,13 @@
-# Auto SMS Forwarding 
-
-  Auto SMS Forwarding is an Android application that automatically forwards incoming SMS messages based on configurable rules such as sender number, message body keywords, and blacklist filters.
+## Auto SMS Forwarding 
+  Auto SMS Forwarding is an Android application that automatically forwards incoming SMS messages based on configurable rules such as sender     number, message body keywords, and blacklist filters.
   It is designed to run efficiently in the background with minimal battery usage.
   
-  This app was built to solve a real client requirement where specific types of SMS messages must be forwarded automatically without manual intervention.
+  This app was built to solve a real client requirement where specific types of SMS messages must be forwarded automatically without manual      intervention.
 
 
 
 
-Key Features
-
+## Key Features
   1. Automatic SMS forwarding in the background
 
   2. Keyword-based message filtering
@@ -27,8 +25,7 @@ Key Features
 
 
 
-How It Works
-
+## How It Works
   The app listens for incoming SMS messages and applies the following rule-based logic:
   
     1. Receiving From
@@ -59,8 +56,7 @@ How It Works
 
 
 
-App UI Overview
-
+## App UI Overview
   The configuration screen allows users to define forwarding rules easily:
   
   Forwarding To → Destination phone number(s)
@@ -76,7 +72,7 @@ App UI Overview
 
 
 
-Project Structure
+## Project Structure
     app/
      ├── data_model/
      │   ├── Preferences.java
@@ -101,8 +97,7 @@ Project Structure
 
 
 
-Permissions Used
-
+## Permissions Used
   RECEIVE_SMS
   
   READ_SMS
@@ -114,8 +109,7 @@ Permissions Used
 
 
 
-Tech Stack
-
+## Tech Stack
   Language: Java
   
   Platform: Android
@@ -129,38 +123,53 @@ Tech Stack
 
 
 
-Example Use Case
-
-  A business receives OTP or transaction messages on a central phone number and needs them forwarded automatically to customers or internal systems without manual forwarding.
+## Example Use Case
+  A business receives OTP or transaction messages on a central phone number and needs them forwarded automatically to customers or internal      systems without manual forwarding.
   
   This app solves that problem reliably and efficiently.
 
 
 
 
-License & Credits
-
+## License & Credits
   This project is licensed under the GNU General Public License v2.0 (GPL-2.0).
-  
   This project was initially inspired by an existing open-source SMS forwarding repository.
-  The current version includes significant architectural changes, automation, UI updates, filtering logic, and additional features, making it a distinct and extended implementation.
+  The current version includes significant architectural changes, automation, UI updates, filtering logic, and additional features, making it    a distinct and extended implementation.
   
   Full license text is available in the LICENSE file.
 
 
 
 
-Disclaimer
-  
+## Disclaimer
   This app is intended for educational and internal automation purposes only.
   Usage must comply with local laws and telecom regulations regarding SMS handling and forwarding.
 
 
 
 
+## Credits & Attribution
+This project is based on an open-source SMS forwarding application:
+- Original Author: < warren-bank >
+- Original Repository: < https://github.com/warren-bank/Android-SMS-Automatic-Forwarding >
+- License: GNU GPL v2
 
-Author
 
+
+
+## Modifications by < CoderShivamGusain >
+- Complete UI redesign
+- Automated background service
+- Keyword-based SMS forwarding
+- Sender-based filtering
+- Blacklisted phone numbers
+- Blacklisted keywords
+- Performance and stability improvements
+
+
+
+
+## Author
 Shivam Gusain (CoderShivamGusain)
 Backend Developer | Android Developer | Automation & Background Services
 GitHub: https://github.com/CoderShivamGusain
