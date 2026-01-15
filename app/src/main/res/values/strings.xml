@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">SMS Forwarding</string>
+
+  <string name="label_enable">Enable Service</string>
+  <string name="label_recipient">Forwarding to :</string>
+  <string name="label_sender">Receiving From :</string>
+<!--    <string name="label_sender_name">Sender Name Keyword:</string>-->
+    <string name="label_keywords">Body Keywords :</string>
+  <string name="label_button_cancel">CANCEL</string>
+  <string name="label_button_delete">DELETE</string>
+  <string name="label_button_save">SAVE</string>
+<string name="hint_keywords">otp, varification code,</string>
+  <string name="menu_add">ADD</string>
+    <string name="hint_blacklist"> jio, airtel</string>
+    <string name="hint_sender"> sbi, *, pnb,  </string>
+    <string name="label_blacklist"> Blacklist: </string>
+    <string name="hint_recipient">1234567890</string>
+
+  <string name="error_missing_required_value">Error: Missing Required Value</string>
+  <string name="error_add_listitem">Error: Could not add new item to list</string>
+
+  <string name="sms_preface_heading">Forwarded from:</string>
+</resources>

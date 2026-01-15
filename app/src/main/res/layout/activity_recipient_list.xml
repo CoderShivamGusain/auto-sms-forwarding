@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="80dp"
+    android:padding="16dp">
+
+<!--     Always-enabled forwarding indicator-->
+    <CheckBox
+        android:id="@+id/input_enable"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="SMS Forwarding Enabled"
+        android:checked="true"
+        android:enabled="false"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- Existing Rules List -->
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/listview_background"
+        android:divider="@color/listview_divider"
+        android:dividerHeight="1dp"
+        android:scrollbars="none" />
+
+</LinearLayout>
